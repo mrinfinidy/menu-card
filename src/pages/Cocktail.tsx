@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
     useColorModeValue,
     Button,
@@ -10,6 +10,7 @@ import {
     Text,
     Divider
 } from '@chakra-ui/react';
+import sendOrderMail from '../components/order-mail';
 
 interface CocktailProps {
     imageSrc: string;
@@ -46,6 +47,7 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
                 </Text>
                 <Divider />
                 <Button
+                    onClick={() => sendOrderMail(name)}
                     color={useColorModeValue("orange.100", "orange.100")}
                     _hover={{ textColor: useColorModeValue("orange.600", "orange.100"), bg: useColorModeValue("orange.100", "orange.600") }}
                     mt="2"
