@@ -23,25 +23,25 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
     const toast = useToast();
 
     const handleOrder = (name: string) => {
-        // sendOrderMail(name)
-        // .then(() => {
-        //     toast({
-        //         title: `${name} bestellt`,
-        //         status: "success",
-        //         duration: 5000,
-        //         isClosable: true,
-        //     });
-        // }) 
-        // .catch((error) => {
-        //     console.error(error);
-        //     toast({
-        //         title: "Fehler",
-        //         description: `${name} konnte nicht bestellt werden`,
-        //         status: "error",
-        //         duration: 5000,
-        //         isClosable: true,
-        //     });
-        // });
+        sendOrderMail(name)
+        .then(() => {
+            toast({
+                title: `${name} bestellt`,
+                status: "success",
+                duration: 5000,
+                isClosable: true,
+            });
+        }) 
+        .catch((error) => {
+            console.error(error);
+            toast({
+                title: "Fehler",
+                description: `${name} konnte nicht bestellt werden`,
+                status: "error",
+                duration: 5000,
+                isClosable: true,
+            });
+        });
     }
 
     return (
