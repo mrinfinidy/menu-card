@@ -74,6 +74,7 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
                 <Button
                     onClick={() => handleOrder(name)}
                     color={useColorModeValue("orange.100", "orange.100")}
+                    _hover={{ bg: useColorModeValue("orange.700", "gray.500") }}
                     _active={{ textColor: useColorModeValue("orange.600", "orange.100"), bg: useColorModeValue("orange.100", "orange.600") }}
                     mt="2"
                     variant="outline"
