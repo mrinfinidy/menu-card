@@ -1,5 +1,15 @@
 import React from 'react';
-import { Image, Stack, Card, CardBody, Heading, Text, useColorModeValue } from '@chakra-ui/react';
+import {
+    useColorModeValue,
+    Button,
+    Image,
+    Stack,
+    Card,
+    CardBody,
+    Heading,
+    Text,
+    Divider
+} from '@chakra-ui/react';
 
 interface CocktailProps {
     imageSrc: string;
@@ -13,7 +23,7 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
             maxW="sm"
             padding="5"
             my="2"
-            bg={useColorModeValue("pink.600", "gray.600")}
+            bg={useColorModeValue("orange.600", "gray.600")}
         >
             <CardBody>
                 <Image
@@ -25,15 +35,24 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
             <Stack mt="6" spacing="3" align="center" >
                 <Heading
                     size="md"
-                    color={useColorModeValue("white", "pink.100")}
+                    color={useColorModeValue("white", "orange.100")}
                 >
                     { name }
                 </Heading>
                 <Text
-                    color={useColorModeValue("white", "pink.100")}
+                    color={useColorModeValue("white", "orange.100")}
                 >
                     { description }
                 </Text>
+                <Divider />
+                <Button
+                    color={useColorModeValue("orange.100", "orange.100")}
+                    _hover={{ textColor: useColorModeValue("orange.600", "orange.100"), bg: useColorModeValue("orange.100", "orange.600") }}
+                    mt="2"
+                    variant="outline"
+                >
+                    BESTELLEN
+                </Button>
             </Stack>
         </Card>
     );
