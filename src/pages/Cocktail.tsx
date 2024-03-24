@@ -73,6 +73,7 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
                 <Divider />
                 <Button
                     onClick={() => handleOrder(name)}
+                    bg={useColorModeValue("orange.600", "gray.600")}
                     color={useColorModeValue("orange.100", "orange.100")}
                     _hover={{ bg: useColorModeValue("orange.700", "gray.500") }}
                     _active={{ textColor: useColorModeValue("orange.600", "orange.100"), bg: useColorModeValue("orange.100", "orange.600") }}
