@@ -9,7 +9,8 @@ import {
     Heading,
     Text,
     Divider,
-    useToast
+    useToast,
+    Box
 } from '@chakra-ui/react';
 import sendOrderMail from '../components/order-mail';
 
@@ -61,25 +62,28 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
             <Stack mt="6" spacing="3" align="center" >
                 <Heading
                     size="md"
-                    color={useColorModeValue("white", "orange.100")}
+                    color={useColorModeValue("white", "orange.200")}
                 >
                     { name }
                 </Heading>
                 <Text
-                    color={useColorModeValue("white", "orange.100")}
+                    color={useColorModeValue("white", "orange.200")}
                 >
                     { description }
                 </Text>
                 <Divider />
-                <Button
-                    onClick={() => handleOrder(name)}
-                    color={useColorModeValue("orange.100", "orange.100")}
-                    _active={{ textColor: useColorModeValue("orange.600", "orange.100"), bg: useColorModeValue("orange.100", "orange.600") }}
-                    mt="2"
-                    variant="outline"
+                <Box
+                    borderRadius="lg"
+                    bg={useColorModeValue("orange.100", "gray.600")}
                 >
-                    BESTELLEN
-                </Button>
+                    <Button
+                        onClick={() => handleOrder(name)}
+                        colorScheme="orange" 
+                        variant="outline"
+                    >
+                        BESTELLEN
+                    </Button>
+                </Box>
             </Stack>
         </Card>
     );
