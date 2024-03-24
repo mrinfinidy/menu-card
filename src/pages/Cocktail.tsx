@@ -74,7 +74,7 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
                 <Divider />
                 <Box
                     borderRadius="lg"
-                    bg={useColorModeValue("orange.100", "gray.600")}
+                    bg={useColorModeValue("orange.100", "gray.700")}
                 >
                     <Button
                         onClick={() => handleOrder(name)}
