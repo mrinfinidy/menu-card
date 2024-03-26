@@ -55,7 +55,7 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
             <CardBody>
                 <Image
                     src={ imageSrc }
-                    alt="Cocktail 1"
+                    alt="Cocktail image"
                     borderRadius="lg"
                 />
             </CardBody>

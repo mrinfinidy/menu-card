@@ -1,10 +1,11 @@
 import { 
     Flex,
     Text,
-    useColorModeValue,
+    useColorModeValue
 } from '@chakra-ui/react'
 import ThemeToggleButton from '../components/theme-toggle-button';
 import Cocktail from './Cocktail';
+import "@fontsource/great-vibes";
 
 const Home = () => {
 
@@ -27,6 +28,13 @@ const Home = () => {
                 </Text>
                 <ThemeToggleButton />
             </Flex>
+            <Text
+                fontFamily="Great Vibes"
+                mb="2"
+                color={useColorModeValue("orange.600", "orange.200")}
+            >
+                „Marlenes und Amons Empfehlung"
+            </Text>
             <Cocktail
                 imageSrc={mojito.imageSrc}
                 name={mojito.name}
