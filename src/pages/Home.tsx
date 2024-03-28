@@ -50,13 +50,13 @@ const Home = () => {
 };
 
 const mojito = {
-    imageSrc: "https://img.freepik.com/premium-vector/lemon-drink-cartoon-doodle-art-hand-draw-illustration_1125753-211.jpg?w=740",
+    imageSrc: "./menu-card/cocktails/mojito.png",
     name: "Mojito",
     description: "Rum, Zucker, Limettensaft, Sodawasser, Minze und Eiswürfel"
     }
 
 const margarita = {
-    imageSrc: "https://img.freepik.com/free-vector/refreshing-citrus-cocktail-illustration_1308-164569.jpg?w=360&t=st=1711067479~exp=1711068079~hmac=7c1c32d5ec7b35b217d7a82f5838b493cede9fb77d06feae80ddb38c98df1761",    
+    imageSrc: "./menu-card/cocktails/margarita.png",
     name: "Margarita",
     description: "Tequila, Limettensaft, Orangenlikör und Eiswürfel"
 }
