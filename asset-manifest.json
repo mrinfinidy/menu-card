@@ -1,10 +1,19 @@
 {
   "files": {
-    "main.js": "/menu-card/static/js/main.7b2be997.js",
+    "main.css": "/menu-card/static/css/main.0381a04a.css",
+    "main.js": "/menu-card/static/js/main.9ad4de78.js",
+    "static/media/great-vibes-latin-400-normal.woff2": "/menu-card/static/media/great-vibes-latin-400-normal.be0bf4706b438d27744a.woff2",
+    "static/media/great-vibes-latin-400-normal.woff": "/menu-card/static/media/great-vibes-latin-400-normal.57d7006f69c6a02f9054.woff",
+    "static/media/great-vibes-latin-ext-400-normal.woff2": "/menu-card/static/media/great-vibes-latin-ext-400-normal.afd1d5ce8e6ecd213f48.woff2",
+    "static/media/great-vibes-latin-ext-400-normal.woff": "/menu-card/static/media/great-vibes-latin-ext-400-normal.57e464dd9bdc022fa4cc.woff",
+    "static/media/great-vibes-vietnamese-400-normal.woff2": "/menu-card/static/media/great-vibes-vietnamese-400-normal.f9dc7aec50196d6a92d0.woff2",
+    "static/media/great-vibes-vietnamese-400-normal.woff": "/menu-card/static/media/great-vibes-vietnamese-400-normal.f3e35abe465a0f6063b4.woff",
     "index.html": "/menu-card/index.html",
-    "main.7b2be997.js.map": "/menu-card/static/js/main.7b2be997.js.map"
+    "main.0381a04a.css.map": "/menu-card/static/css/main.0381a04a.css.map",
+    "main.9ad4de78.js.map": "/menu-card/static/js/main.9ad4de78.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b2be997.js"
+    "static/css/main.0381a04a.css",
+    "static/js/main.9ad4de78.js"
   ]
 }
