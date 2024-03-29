@@ -13,6 +13,8 @@ import {
     Box
 } from '@chakra-ui/react';
 import sendOrderMail from '../components/order-mail';
+import "@fontsource/oswald"
+import "@fontsource/raleway"
 
 interface CocktailProps {
     imageSrc: string;
@@ -63,11 +65,13 @@ const Cocktail: React.FC<CocktailProps> = ({ imageSrc, name, description }) => {
                 <Heading
                     size="md"
                     color={useColorModeValue("white", "orange.200")}
+                    fontFamily="Oswald"
                 >
                     { name }
                 </Heading>
                 <Text
                     color={useColorModeValue("white", "orange.200")}
+                    fontFamily="Raleway"
                 >
                     { description }
                 </Text>
