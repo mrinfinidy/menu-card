@@ -43,9 +43,29 @@ const Home = () => {
                 description={barbara.description}
             />
             <Cocktail
-                imageSrc={margarita.imageSrc}
-                name={margarita.name}
-                description={margarita.description}
+                imageSrc={jetski.imageSrc}
+                name={jetski.name}
+                description={jetski.description}
+            />
+            <Cocktail
+                imageSrc={marlis.imageSrc}
+                name={marlis.name}
+                description={marlis.description}
+            />
+            <Cocktail
+                imageSrc={ryanair.imageSrc}
+                name={ryanair.name}
+                description={ryanair.description}
+            />
+            <Cocktail
+                imageSrc={broman.imageSrc}
+                name={broman.name}
+                description={broman.description}
+            />
+            <Cocktail
+                imageSrc={amore.imageSrc}
+                name={amore.name}
+                description={amore.description}
             />
         </Flex>
     )
@@ -53,16 +73,38 @@ const Home = () => {
 
 const barbara = {
     imageSrc: "cocktails/mojito.png",
-    name: "Die \„Barbara\"",
+    name: "Die „Barbara\"",
     description: "Rum, Zucker, Limettensaft, Sodawasser, Minze und Eiswürfel"
     }
 
-const margarita = {
+const jetski = {
     imageSrc: "cocktails/mojito.png",
-    name: "Margarita",
+    name: "Die „Jetski\"",
     description: "Tequila, Limettensaft, Orangenlikör und Eiswürfel"
 }
 
+const marlis = {
+    imageSrc: "cocktails/mojito.png",
+    name: "Die „Marlis\"",
+    description: "Wodka, Limettensaft, Zitronensaft, Zuckersirup, Sodawasser und Eiswürfel"
+}
 
+const ryanair = {
+    imageSrc: "cocktails/mojito.png",
+    name: "Der „Ryanair\"",
+    description: "Wodka, Orangensaft, Grenadine, Sodawasser und Eiswürfel"
+}
+
+const broman = {
+    imageSrc: "cocktails/mojito.png",
+    name: "Der „Broman\"",
+    description: "Rum, Orangensaft, Ananassaft, Kokosmilch und Eiswürfel"
+}
+
+const amore = {
+    imageSrc: "cocktails/mojito.png",
+    name: "Der „Amore\"",
+    description: "Prosecco, Aperol, Sodawasser und Eiswürfel"
+}
 
 export default Home;
