@@ -74,37 +74,37 @@ const Home = () => {
 const barbara = {
     imageSrc: "cocktails/mojito.png",
     name: "Die „Barbara\"",
-    description: "Rum, Zucker, Limettensaft, Sodawasser, Minze und Eiswürfel"
+    description: "Tequila, Orangensaft, Zitronensaft, Grenadine und Eiswürfel"
     }
 
 const jetski = {
     imageSrc: "cocktails/mojito.png",
     name: "Die „Jetski\"",
-    description: "Tequila, Limettensaft, Orangenlikör und Eiswürfel"
+    description: "Vodka, Red Bull, Maracujasaft, Limettensaft und Rohrzucker"
 }
 
 const marlis = {
     imageSrc: "cocktails/mojito.png",
     name: "Die „Marlis\"",
-    description: "Wodka, Limettensaft, Zitronensaft, Zuckersirup, Sodawasser und Eiswürfel"
+    description: "Vodka, Rum, Blue Curacao, Ananassaft und Limettensaft"
 }
 
 const ryanair = {
     imageSrc: "cocktails/mojito.png",
     name: "Der „Ryanair\"",
-    description: "Wodka, Orangensaft, Grenadine, Sodawasser und Eiswürfel"
+    description: "Rum, Pfirsichlikör, und Limettensaft"
 }
 
 const broman = {
     imageSrc: "cocktails/mojito.png",
     name: "Der „Broman\"",
-    description: "Rum, Orangensaft, Ananassaft, Kokosmilch und Eiswürfel"
+    description: "Tequila, Grapfruitsaft und Limettensaft"
 }
 
 const amore = {
     imageSrc: "cocktails/mojito.png",
     name: "Der „Amore\"",
-    description: "Prosecco, Aperol, Sodawasser und Eiswürfel"
+    description: "Whiskey, Zitronensaft, Rohrzucker und Eiweiß"
 }
 
 export default Home;
