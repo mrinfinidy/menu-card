@@ -50,13 +50,13 @@ const Home = () => {
 };
 
 const mojito = {
-    imageSrc: "./menu-card/cocktails/mojito.png",
+    imageSrc: "cocktails/mojito.png",
     name: "Mojito",
     description: "Rum, Zucker, Limettensaft, Sodawasser, Minze und Eiswürfel"
     }
 
 const margarita = {
-    imageSrc: "./menu-card/cocktails/margarita.png",
+    imageSrc: "cocktails/margarita.png",
     name: "Margarita",
     description: "Tequila, Limettensaft, Orangenlikör und Eiswürfel"
 }
